@@ -27,7 +27,7 @@
 
         <div class="col p-3">
         
-        <input type="number" class="form-control caja" id="numero1" placeholder="">
+        <input type="number" class="form-control caja text-center" id="numero1" value="1"  readonly placeholder="">
         </div>
 
         <div class="col p-3">
@@ -37,7 +37,7 @@
     
         <div class="col p-3">
         
-       <input type="number" class="form-control caja" id="numero2" placeholder="">
+       <input type="number" class="form-control caja text-center" id="numero2"  value="3"  readonly placeholder="">
        </div>
 
        <div class="col  p-3">
@@ -47,10 +47,10 @@
 
           <div class="col  p-3">
        
-        <input type="number" class="form-control caja " id="numero3" placeholder="">
+        <input type="number" class="form-control caja text-center" id="resultado" placeholder="">
           </div>
        
-        <button type="button" class="btn btn-outline-success mt-5 p-3">enviar </button>
+        <button type="button" class="btn btn-outline-success mt-5 p-3" id="2">2  </button>
     </div>
     </div>
 
@@ -63,12 +63,25 @@
     </div>
 </div>
 
+<div class="row">
+                <div class="col-4">
+                    <iframe src="https://giphy.com/embed/l0MYKDrj6SXHz8YYU" width="480" height="270" id="3" frameBorder="0" class="giphy-embed invisible  " allowFullScreen></iframe>
+                        
+                </div>
+            
+            <div class="col-4">
+            <iframe src="https://giphy.com/embed/1wnqG7rvm1fvHqyelX" width="280" height="280" frameBorder="0" id="4" class="giphy-embed invisible" allowFullScreen></iframe>
+                       
+                </div>
+            </div>
+        </div>
+
 </main>
 
 <footer>
 
 </footer>
-    
+    <script src="controlador.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 
