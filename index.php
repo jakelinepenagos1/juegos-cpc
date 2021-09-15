@@ -64,12 +64,12 @@
 </div>
 
 <div class="row">
-                <div class="col-4">
+                <div class="col-6 align-self-center ">
                     <iframe src="https://giphy.com/embed/l0MYKDrj6SXHz8YYU" width="480" height="270" id="3" frameBorder="0" class="giphy-embed invisible  " allowFullScreen></iframe>
                         
                 </div>
             
-            <div class="col-4">
+            <div class="col-6">
             <iframe src="https://giphy.com/embed/1wnqG7rvm1fvHqyelX" width="280" height="280" frameBorder="0" id="4" class="giphy-embed invisible" allowFullScreen></iframe>
                        
                 </div>

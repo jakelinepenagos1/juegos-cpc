@@ -1,8 +1,10 @@
+
+
 let calcular=document.getElementById("2");
 let gif=document.getElementById("3");
 let gif2=document.getElementById("4");
 
-calcular.addEventListener("click",verificarRespuesta);
+calcular.addEventListener("click",verificarRespuesta);   
 
 function verificarRespuesta(){
     
@@ -18,6 +20,8 @@ function verificarRespuesta(){
         console.log("ok");
         gif.classList.add("visible");
         gif.classList.remove("invisible");
+        gif2.classList.add("invisible");
+        gif2.classList.remove("visible");
 
 
     }else{
@@ -25,6 +29,9 @@ function verificarRespuesta(){
         console.log("ojo");
         gif2.classList.add("visible");
         gif2.classList.remove("invisible");
+        gif.classList.add("invisible");
+        gif.classList.remove("visible");
+
 
     }
 
