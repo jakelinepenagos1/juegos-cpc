@@ -2,9 +2,13 @@
 
 let calcular=document.getElementById("2");
 let gif=document.getElementById("3");
-let gif2=document.getElementById("4");
+let siguiente=document.getElementById("4");
+
 
 calcular.addEventListener("click",verificarRespuesta);   
+siguiente.addEventListener("click",numerosAlzar);
+
+
 
 function verificarRespuesta(){
     
@@ -18,24 +22,36 @@ function verificarRespuesta(){
     if(resultado==calcularResultado){
 
         console.log("ok");
-        gif.classList.add("visible");
+        gif.src="https://giphy.com/embed/l0MYKDrj6SXHz8YYU";
         gif.classList.remove("invisible");
-        gif2.classList.add("invisible");
-        gif2.classList.remove("visible");
 
 
-    }else{
+    }
+    else{
 
         console.log("ojo");
-        gif2.classList.add("visible");
-        gif2.classList.remove("invisible");
-        gif.classList.add("invisible");
-        gif.classList.remove("visible");
+        
+        gif.src="https://giphy.com/embed/1wnqG7rvm1fvHqyelX";
+        gif.classList.remove("invisible");
 
 
     }
 
 
-
-
 }
+
+function numerosAlzar(){
+
+    gif.classList.add("invisible");
+    numero1.value=getRandomInt(1,10) ;
+    numero2.value=getRandomInt(1,10);
+    
+ 
+}
+function getRandomInt(min, max,) {
+    return Math.floor(Math.random() * (max - min)) + min;
+    
+  }
+
+
+ 
